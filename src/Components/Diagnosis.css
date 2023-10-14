@@ -1,0 +1,22 @@
+.desc-cont{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #240046;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 375px) {
+    .desc-cont{
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .desc-cont{
+        margin: 0px 0px;
+        border-radius: 0px;
+        padding: 20px 10px;
+        width: 95%;
+    }
+}

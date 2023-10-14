@@ -1,0 +1,442 @@
+[
+    {
+        "label": "Skin Related",
+        "symptoms": [
+            {
+                "d": "Itching"
+            },
+            {
+                "d": "Skin Rash"
+            },
+            {
+                "d": "Nodal Skin Eruptions"
+            },
+            {
+                "d": "Yellowish Skin"
+            },
+            {
+                "d": "Bruising"
+            },
+            {
+                "d": "Internal Itching"
+            },
+            {
+                "d": "Red Spots Over Body"
+            },
+            {
+                "d": "Dischromic Patches"
+            },
+            {
+                "d": "Blackheads"
+            },
+            {
+                "d": "Pus Filled Pimples"
+            },
+            {
+                "d": "Skin Peeling"
+            },
+            {
+                "d": "Blister"
+            },
+            {
+                "d": "Yellow Crust Ooze"
+            }
+        ]
+    },
+    {
+        "label": "Cold Related",
+        "symptoms": [
+            {
+                "d": "Continuous Sneezing"
+            },
+            {
+                "d": "Shivering"
+            },
+            {
+                "d": "Chills"
+            },
+            {
+                "d": "Cold Hands and Feets"
+            }
+        ]
+    },
+    {
+        "label": "Pain Related",
+        "symptoms": [
+            {
+                "d": "Joint Pain"
+            },
+            {
+                "d": "Headache"
+            },
+            {
+                "d": "Pain Behind the Eyes"
+            },
+            {
+                "d": "Back Pain"
+            },
+            {
+                "d": "Abdominal Pain"
+            },
+            {
+                "d": "Chest Pain"
+            },
+            {
+                "d": "Pain During Bowel Movements"
+            },
+            {
+                "d": "Pain In Anal Region"
+            },
+            {
+                "d": "Neck Pain"
+            },
+            {
+                "d": "Knee Pain"
+            },
+            {
+                "d": "Hip Joint Pain"
+            },
+            {
+                "d": "Muscle Pain"
+            },
+            {
+                "d": "Belly Pain"
+            },
+            {
+                "d": "Painful Walking"
+            }
+        ]
+    },
+    {
+        "label": "Stomach and Abdomen Related",
+        "symptoms": [
+            {
+                "d": "Stomach Pain"
+            },
+            {
+                "d": "Acidity"
+            },
+            {
+                "d": "Indigestion"
+            },
+            {
+                "d": "Constipation"
+            },
+            {
+                "d": "Swelling of Stomach"
+            },
+            {
+                "d": "Bladder Discomfort"
+            },
+            {
+                "d": "Stomach Bleeding"
+            },
+            {
+                "d": "Distention of Abdomen"
+            },
+            {
+                "d": "Bloody Stool"
+            }
+        ]
+    },
+    {
+        "label": "Face and Throat Related",
+        "symptoms": [
+            {
+                "d": "Ulcers on Tongue"
+            },
+            {
+                "d": "Patches in Throat"
+            },
+            {
+                "d": "Sunken Eyes"
+            },
+            {
+                "d": "Swelled Lymph Nodes"
+            },
+            {
+                "d": "Blurred and Distorted Vision"
+            },
+            {
+                "d": "Phlegm"
+            },
+            {
+                "d": "Throat Irritation"
+            },
+            {
+                "d": "Redness of Eyes"
+            },
+            {
+                "d": "Sinus Pressure"
+            },
+            {
+                "d": "Runny Nose"
+            },
+            {
+                "d": "Congestion"
+            },
+            {
+                "d": "Puffy Face and Eyes"
+            },
+            {
+                "d": "Drying and Tingling Lips"
+            },
+            {
+                "d": "Stiff Neck"
+            },
+            {
+                "d": "Loss of Smell"
+            },
+            {
+                "d": "Watering from Eyes"
+            },
+            {
+                "d": "Mucoid Sputum"
+            },
+            {
+                "d": "Rusty Sputum"
+            },
+            {
+                "d": "Visual Disturbances"
+            },
+            {
+                "d": "Blood in Sputum"
+            },
+            {
+                "d": "Red Sore Around Nose"
+            },
+            {
+                "d": "Yellowing of Eyes"
+            }
+        ]
+    },
+    {
+        "label": "Heart and Muscles Related",
+        "symptoms": [
+            {
+                "d": "Muscle Wasting"
+            },
+            {
+                "d": "Weakness in Limbs"
+            },
+            {
+                "d": "Cramps"
+            },
+            {
+                "d": "Muscle Weakness"
+            },
+            {
+                "d": "Palpitations"
+            },
+            {
+                "d": "Acute Liver Failure"
+            },
+            {
+                "d": "Fast Heart Rate"
+            }
+        ]
+    },
+    {
+        "label": "Urine Related",
+        "symptoms": [
+            {
+                "d": "Polyuria"
+            },
+            {
+                "d": "Burning Micturition"
+            },
+            {
+                "d": "Spotting Urination"
+            },
+            {
+                "d": "Dark Urine"
+            },
+            {
+                "d": "Yellow Urine"
+            },
+            {
+                "d": "Foul Smell of Urine"
+            },
+            {
+                "d": "Continuous Feel of Urine"
+            }
+        ]
+    },
+    {
+        "label": "Mental Issues Related",
+        "symptoms": [
+            {
+                "d": "Anxiety"
+            },
+            {
+                "d": "Mood Swings"
+            },
+            {
+                "d": "Excessive Hunger"
+            },
+            {
+                "d": "Depression"
+            },
+            {
+                "d": "Irritability"
+            },
+            {
+                "d": "Altered Sensorium"
+            },
+            {
+                "d": "Lack of Concentration"
+            }
+        ]
+    },
+    {
+        "label": "General",
+        "symptoms": [
+            {
+                "d": "Vomiting"
+            },
+            {
+                "d": "Fatigue"
+            },
+            {
+                "d": "Weight Gain"
+            },
+            {
+                "d": "Weight Loss"
+            },
+            {
+                "d": "Restlessness"
+            },
+            {
+                "d": "Lethargy"
+            },
+            {
+                "d": "Irregular Sugar Level"
+            },
+            {
+                "d": "Cough"
+            },
+            {
+                "d": "High Fever"
+            },
+            {
+                "d": "Breathlessness"
+            },
+            {
+                "d": "Sweating"
+            },
+            {
+                "d": "Dehydration"
+            },
+            {
+                "d": "Nausea"
+            },
+            {
+                "d": "Loss of Appetite"
+            },
+            {
+                "d": "Diarrhea"
+            },
+            {
+                "d": "Mild Fever"
+            },
+            {
+                "d": "Malaise"
+            },
+            {
+                "d": "Irritation in Anus"
+            },
+            {
+                "d": "Dizziness"
+            },
+            {
+                "d": "Obesity"
+            },
+            {
+                "d": "Swollen Legs"
+            },
+            {
+                "d": "Swollen Blood Vessels"
+            },
+            {
+                "d": "Enlarged Thyroid"
+            },
+            {
+                "d": "Brittle Nails"
+            }
+        ]
+    },
+    {
+        "label": "General",
+        "symptoms": [
+            {
+                "d": "Swollen Extremities"
+            },
+            {
+                "d": "Extra Marital Contacts"
+            },
+            {
+                "d": "Slurred Speech"
+            },
+            {
+                "d": "Swollen Joints"
+            },
+            {
+                "d": "Movement Stiffness"
+            },
+            {
+                "d": "Spinning Movements"
+            },
+            {
+                "d": "Loss of Balance"
+            },
+            {
+                "d": "Unsteadiness"
+            },
+            {
+                "d": "Weakness of One Body Side"
+            },
+            {
+                "d": "Passage of Gases"
+            },
+            {
+                "d": "Toxic Look (Typhos)"
+            },
+            {
+                "d": "Abnormal Menstruation"
+            },
+            {
+                "d": "Increased Appetite"
+            },
+            {
+                "d": "Family History"
+            },
+            {
+                "d": "Receiving Blood Transfusion"
+            },
+            {
+                "d": "Receiving Unsterile Injections"
+            },
+            {
+                "d": "Coma"
+            },
+            {
+                "d": "History of Alcohol Consumption"
+            },
+            {
+                "d": "Prominent Veins on Calf"
+            },
+            {
+                "d": "Scurring"
+            },
+            {
+                "d": "Silver Like Dusting"
+            },
+            {
+                "d": "Small Dents in Nails"
+            },
+            {
+                "d": "Inflammatory Nails"
+            }
+        ]
+    }
+]

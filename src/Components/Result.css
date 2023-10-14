@@ -1,0 +1,53 @@
+.location{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.loc_btn{
+    width: 150px;
+    padding: 10px;
+}
+.symptom-form {
+    width: 40rem;
+    min-width: 70%;
+    margin: 100px auto;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #240046;
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .symptom-form{
+        width: 20rem
+    }
+    .location{
+        flex-direction: column;
+    }
+    .loc_btn{
+        margin-top: 10px;
+    }
+}
+
+.symp-names{
+    min-height: 30px;
+    background-color: #ff9e03;
+    margin: 5px 0px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #240046;
+}
+.symp-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 425px) {
+    .symptom-form{
+        width: 15rem
+    }
+}

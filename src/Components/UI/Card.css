@@ -1,0 +1,32 @@
+.card-ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+    margin: 10px 0px;
+}
+
+.card-cont{
+    min-height: 300px;
+    min-width: 250px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    /* box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75); */
+    border-radius: 15px;
+    background-color: #ffffff;
+    /* color: white; */
+}
+.items{
+    text-align: center;
+}
+
+.sel-symp{
+    color: white;
+    background-color: #240046;
+    border-radius: 15px;
+}
+
+.symp{
+    cursor: pointer;
+}

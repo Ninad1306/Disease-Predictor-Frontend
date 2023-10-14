@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width: 984px) {
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq-cont{
+        display: none;
+    }
+    .strt-btn{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}

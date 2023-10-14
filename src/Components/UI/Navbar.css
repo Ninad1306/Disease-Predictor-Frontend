@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #ff9e03;
+    min-height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin: revert;
+}
+h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin: revert;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: revert;
+}
+
+.header {
+    margin-top: 0px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.card1{
+    min-height: 100px;
+    background-color: #effff1;
+    border-radius: 15px;
+    margin: 20px 0px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+
+}
+.loc{
+    align-self: center;
+}
+
+.hosp-cont{
+    background-color: #240046;
+    padding: 20px;
+}
+
+.loc-btn{
+    border: none;
+    background-color: #4d2276;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .card1{
+        flex-direction: column;
+    }
+}
