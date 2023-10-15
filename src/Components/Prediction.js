@@ -32,7 +32,7 @@ const Prediction = () => {
     return (
         <div>
             {isVisible && <Modal onClose={() => {setIsVisible(false)}}>
-                <p>Error: Please select atlest one symptom.</p>
+                <p>Error: Please select atleast one symptom.</p>
                 <Link onClick={() => {setIsVisible(false)}} className="modal-cont">back</Link>
             </Modal>}
             <Navbar name={'Disease Prediction'} />
