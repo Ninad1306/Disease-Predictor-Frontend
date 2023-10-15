@@ -17,11 +17,11 @@ const Diagnosis = (props) => {
         <div>
             <Navbar name={props.disease} />
             <div className="desc-cont">
-                <h2>Disease Description: </h2>
+                <h2 class='text-[24px] font-bold my-2.5'>Disease Description: </h2>
                 <p>{props.desc['DiseaseDescription']}</p>
-                <h2>Disease Treatment:</h2>
+                <h2 class='text-[24px] font-bold my-2.5'>Disease Treatment:</h2>
                 <ul>{treatment_list}</ul>
-                <h2>Disease Precautions:</h2>
+                <h2 class='text-[24px] font-bold my-2.5'>Disease Precautions:</h2>
                 <ul>{precaution_list}</ul>
             </div>
         </div>

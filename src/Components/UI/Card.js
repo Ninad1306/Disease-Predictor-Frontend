@@ -32,7 +32,7 @@ const Card = (props) => {
     const list = props.diseases.map(dis => <li onClick={ClickHandler} id={dis['d']} className='symp'>{dis['d']}</li>)
     return (
         <div className='card-cont'>
-            <h4>{props.label}</h4>
+            <h4 class='text-[16px] font-bold my-2.5'>{props.label}</h4>
             <div className='items'>
                 <ul className='card-ul'>
                     {list}
