@@ -28,7 +28,7 @@ const Treatment = () => {
     list = data.map(res => <TreatmentCard addr={res.display_name} name={res.name} lat={res.lat} lon={res.lon} />)
   }
   else {
-    list = <p>Loading ...</p>
+    list = <p class='text-white'>Loading ...</p>
   }
 
   return (

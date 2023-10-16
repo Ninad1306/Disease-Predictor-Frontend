@@ -12,6 +12,7 @@ const Result = (props) => {
   const [result, setResult] = useState('')
   const [isVisible, setIsVisible] = useState(false)
   const [desc, setDesc] = useState('')
+  const [isDisable, setIsDisable] = useState(true)
 
   const Res = async () => {
     const retArr = JSON.parse(localStorage.getItem('symptoms'))
@@ -20,6 +21,7 @@ const Result = (props) => {
     })
     setResult(res.data['disease'])
     setDesc(description.filter(res => res['DiseaseName'] === result))
+    setIsDisable(false)
   }
 
   useEffect(() => {
@@ -43,7 +45,7 @@ const Result = (props) => {
           <p className='symp-cont'>{symp_names}</p>
           <p>The predicted disease is: <b>{result}</b></p>
           <div className='location'>
-            <Link><button onClick={clickHandler} className='loc_btn pred-btn'>Details</button></Link>
+            <Link><button disabled={isDisable} onClick={clickHandler} className='loc_btn pred-btn'>Details</button></Link>
             <Link to='/treatment'><button className='loc_btn pred-btn'>Find a doctor</button></Link>
           </div>
         </div>
