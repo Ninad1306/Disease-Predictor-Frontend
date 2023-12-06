@@ -21,7 +21,7 @@ const Prediction = () => {
 
     const clickHandler = () => {
         const retArr = JSON.parse(localStorage.getItem('symptoms'))
-        if (retArr.length > 0) {
+        if (retArr.length > 2) {
             navigate('/result')
         }
         else {
@@ -31,9 +31,9 @@ const Prediction = () => {
 
     return (
         <div>
-            {isVisible && <Modal onClose={() => {setIsVisible(false)}}>
+            {isVisible && <Modal onClose={() => {setIsVisible(false); window.location.reload(true);}}>
                 <p>Error: Please select atleast one symptom.</p>
-                <Link onClick={() => {setIsVisible(false)}} className="modal-cont">back</Link>
+                <Link onClick={() => {setIsVisible(false); window.location.reload(true);}} className="modal-cont">back</Link>
             </Modal>}
             <Navbar name={'Disease Prediction'} />
             <div className="cont">
