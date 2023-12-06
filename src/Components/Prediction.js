@@ -32,7 +32,7 @@ const Prediction = () => {
     return (
         <div>
             {isVisible && <Modal onClose={() => {setIsVisible(false); window.location.reload(true);}}>
-                <p>Error: Please select atleast one symptom.</p>
+                <p>Error: Please select atleast three symptoms.</p>
                 <Link onClick={() => {setIsVisible(false); window.location.reload(true);}} className="modal-cont">back</Link>
             </Modal>}
             <Navbar name={'Disease Prediction'} />
