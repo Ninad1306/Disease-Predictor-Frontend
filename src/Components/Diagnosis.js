@@ -15,7 +15,7 @@ const Diagnosis = (props) => {
     const precaution_list = precaution.map(res => <li><p><b>{res['name']}</b>: {res['cont']}</p></li>)
     return (
         <div>
-            <Navbar name={props.disease} />
+            <Navbar name={props.disease} back_btn={props.back_btn}/>
             <div className="desc-cont">
                 <h2 class='text-[24px] font-bold my-2.5'>Disease Description: </h2>
                 <p>{props.desc['DiseaseDescription']}</p>

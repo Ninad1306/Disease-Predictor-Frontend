@@ -1,6 +1,6 @@
 [
     {
-        "label": "Skin Related",
+        "label": "SKIN RELATED",
         "symptoms": [
             {
                 "d": "Itching"
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "label": "Cold Related",
+        "label": "COLD RELATED",
         "symptoms": [
             {
                 "d": "Continuous Sneezing"
@@ -61,7 +61,7 @@
         ]
     },
     {
-        "label": "Pain Related",
+        "label": "PAIN RELATED",
         "symptoms": [
             {
                 "d": "Joint Pain"
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "label": "Stomach and Abdomen Related",
+        "label": "STOMACH AND ABDOMEN RELATED",
         "symptoms": [
             {
                 "d": "Stomach Pain"
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "label": "Face and Throat Related",
+        "label": "FACE AND THROAT RELATED",
         "symptoms": [
             {
                 "d": "Ulcers on Tongue"
@@ -211,7 +211,7 @@
         ]
     },
     {
-        "label": "Heart and Muscles Related",
+        "label": "HEART AND MUSCLES RELATED",
         "symptoms": [
             {
                 "d": "Muscle Wasting"
@@ -237,7 +237,7 @@
         ]
     },
     {
-        "label": "Urine Related",
+        "label": "URINE RELATED",
         "symptoms": [
             {
                 "d": "Polyuria"
@@ -263,7 +263,7 @@
         ]
     },
     {
-        "label": "Mental Issues Related",
+        "label": "MENTAL ISSUES RELATED",
         "symptoms": [
             {
                 "d": "Anxiety"
@@ -289,7 +289,7 @@
         ]
     },
     {
-        "label": "General",
+        "label": "GENERAL",
         "symptoms": [
             {
                 "d": "Vomiting"
@@ -366,7 +366,7 @@
         ]
     },
     {
-        "label": "General",
+        "label": "GENERAL",
         "symptoms": [
             {
                 "d": "Swollen Extremities"

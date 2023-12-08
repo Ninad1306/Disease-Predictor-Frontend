@@ -32,6 +32,10 @@ const Result = (props) => {
     setIsVisible(true)
   }
 
+  const visibilityHandler = () => {
+    setIsVisible(false)
+  }
+
   const ret_names = JSON.parse(localStorage.getItem('names'))
   const symp_names = ret_names.map(s => <span className='symp-names'>{s}</span>)
 
@@ -50,7 +54,7 @@ const Result = (props) => {
           </div>
         </div>
       </div>}
-      {isVisible && <Diagnosis disease={result} desc={desc[0]} />}
+      {isVisible && <Diagnosis disease={result} desc={desc[0]} back_btn={visibilityHandler}/>}
     </>
 
   )

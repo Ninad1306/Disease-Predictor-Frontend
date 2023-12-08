@@ -35,7 +35,7 @@ const Prediction = () => {
                 <p>Error: Please select atleast three symptoms.</p>
                 <Link onClick={() => {setIsVisible(false); window.location.reload(true);}} className="modal-cont">back</Link>
             </Modal>}
-            <Navbar name={'Disease Prediction'} />
+            <Navbar name={'Select Symptoms'} />
             <div className="cont">
                 <div className="symp-list">
                     {cards}

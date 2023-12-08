@@ -17,3 +17,7 @@
     color: white;
     text-decoration: none;
 }
+
+.bk_btn{
+    cursor: pointer;
+}
